@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.nav img{
+    position: relative;
+    width: 120px;
+    height: 60px;
+    top: 15px;
+
+}
+
+.nav-2 img{
+    position: relative;
+    width: 90px;
+    height: 80px;
+    left: 100%;
+    top: -50px;
+   cursor: pointer;
+   
+
+}
+
+
+.nav-3 ul li{
+    position: relative;
+    list-style: none;
+    display: inline;
+    margin: 0 10px;
+left: 52%;
+top: -100px;
+
+}
+
+.nav-3 ul li a{
+
+text-decoration: none;
+color: black;
+font-size: 15px;
+font-weight: bold;
+font-style: normal;
+font-family: sans-serif;
+transition: 0.5s;
+}
+
+ ul li a:hover{
+    color: red;
+    
+
+}
+
+.nav-4{
+    position: relative;
+    top: 90px;
+    left: 5%;
+}
+
+h1{
+    font-size: 40px;
+
+}
+h1::first-letter{
+    color: red;
+}
+
+
+.pass{
+font-size: 25px;
+}
+
+.shoot{
+    color: lightgray;
+}
+
+h4{
+    font-size: 20px;
+}
+
+.line{
+    position: relative;
+    left: 2%;
+    top: -120px;
+    width:10px ;
+    height:23% ;
+    background: linear-gradient(blue,red,green,purple);
+}
+
+.btn{
+    position: relative;
+    left: 4%;
+    top: -60px;
+    
+}
+.btn img button{
+    justify-content: space-between ;
+}
+
+.btn img{
+    
+    width: 26px;
+    height: 10px;
+    align-items: center;
+
+    display: none;
+   
+}
+
+button{
+height: 50px;
+width: 160px;
+border-radius: 20px;
+border: 2px solid red;
+background: linear-gradient(blue,red);
+font-size: 15px;
+cursor: pointer;
+transition: 0.5s;
+}
+
+.btn button:hover img{
+    
+    display: inline;
+    
+}
+
+
+
+.nav-5 img{
+    position: relative;
+  left: 45%;
+  height: 350px ;
+  width: 500px;
+  top: -355px;
+
+
+}
+
+
+
+
+
+
+.icons img{
+    position: relative;
+    height: 35px;
+    align-items: center;
+    left: 43%;
+  top:-300px ;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width:700px){
+    .nav-3 {
+        width: 100%;
+        height: 40px;
+        background: linear-gradient(blue,red);
+        position: absolute;
+        top: 79px;
+        display: block;
+
+
+       
+        z-index: 2;
+    }
+    .nav-3 ul li a{
+        position: relative;
+        display: block;
+        top: 100px;
+        display: inline;
+        color: white;
+        left: -50%;
+        font-size: 10px;
+        
+    }
+
+
+
+    .nav-2 img{
+        position: relative;
+        left: 265px;
+    }
+.nav-4{
+    position: relative;
+    left:30px;
+    top: 130px;
+}
+
+    h1{
+        font-size: 18px;
+    }
+
+    .pass{
+        font-size: 10px;
+        
+        
+    }
+
+    
+
+    .nav-5 img{
+        position: relative;
+      left: 65%;
+      height: 120px ;
+      width: 140px;
+      top: -180px;
+    
+    
+    }
+
+    .btn{
+        position: relative;
+        top:34px ;
+    }
+.line{
+    position: relative;
+    top: -16px;
+    width: 10px;
+    height:15% ;
+
+}
+.icons img{
+    position: relative;
+    top: 20px;
+    height: 30px;
+    margin: 0 5px;
+    left: 100px;
+    
+
+}
+   
+}
+
